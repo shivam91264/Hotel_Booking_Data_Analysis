@@ -1,27 +1,31 @@
-# This project dives into hotel booking data analysis, focusing on two types of hotels: Resort Hotel and City Hotel. The idea was to figure out interesting trends, like when people are most likely to book, how often they cancel, and what factors affect their choices.
+# Hotel Bookings Data Analysis
 
-# Dataset :-- The dataset is pretty big, it has 119,390 rows and 33 columns. Here are some of the key details:
+## Overview
+Welcome to the **Hotel Bookings Data Analysis** project! This analysis focuses on hotel booking trends for two types of hotels: **Resort Hotel** and **City Hotel**. The goal was to uncover key insights like peak booking periods, cancellation patterns, and revenue trends.
 
-hotel: Tells you if it's a Resort or City hotel.
+---
 
-is_canceled: Shows whether the booking was canceled (1 means canceled, 0 means not).
+## 🌟 Features
 
-lead_time: Number of days between booking and actual arrival.
+### Data Insights:
+- **Booking Patterns**: Analyzed booking trends over the years and identified peak booking months.
+- **Cancellations**: Explored cancellation rates and the factors influencing them.
+- **Guest Demographics**: Visualized where most guests come from and their booking habits.
+- **Revenue Insights**: Investigated the average daily rate (`adr`) and special requests.
 
-arrival_date_year, arrival_date_month, arrival_date_day_of_month: Breaks down the arrival date.
+### Dashboard Features:
+- **Filter Options**: Added filters for interactive exploration by:
+  - Hotel type (Resort or City)
+  - Booking status (Canceled or Not Canceled)
+  - Arrival month and year
+  - Guest demographics (adults, children, babies)
 
-stays_in_weekend_nights: How many weekend nights were booked.
+### Key Visualizations:
+- Total bookings by hotel type.
+- Monthly trends.
+- Cancellation rates.
+- Top countries of origin.
 
-stays_in_week_nights: How many weekdays were booked.
 
-adults, children, babies: Number of adults, kids, and babies in the booking.
 
-meal: Type of meal plan selected.
 
-country: Guest's country of origin.
-
-market_segment: How the booking was made (Online, Direct, Corporate, etc.).
-
-reservation_status: Current status (Checked Out, Canceled, No Show).
-
-reservation_status_date: Date when the status was last updated.
